@@ -7,7 +7,8 @@
       "namespace": "android_app",
       "package_name": "com.shakeeat.my_shake_eat",
       "sha256_cert_fingerprints": [
-        "DE:02:82:BB:94:AF:33:8F:F0:31:B9:1C:F4:D7:BA:46:B8:52:CC:CE:92:5A:E6:39:E1:97:EE:66:BF:4E:D8:85"
+        "DE:02:82:BB:94:AF:33:8F:F0:31:B9:1C:F4:D7:BA:46:B8:52:CC:CE:92:5A:E6:39:E1:97:EE:66:BF:4E:D8:85",
+        "09:13:37:64:12:A1:F5:5B:F3:40:45:46:8A:6A:04:6B:6C:6D:5E:85:81:04:F8:D6:E7:5F:E9:43:8D:0D:57:77"
       ]
     }
   }
