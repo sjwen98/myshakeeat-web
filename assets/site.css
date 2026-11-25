@@ -90,6 +90,8 @@ nav {
   box-shadow: 0 10px 26px rgba(255, 107, 53, 0.32);
 }
 .btn:hover { filter: brightness(1.05); }
+.btn-soon { cursor: default; opacity: 0.85; box-shadow: none; }
+.btn-soon:hover { filter: none; }
 
 .note { padding-bottom: 50px; }
 .note p { color: var(--muted); font-size: 14px; margin: 0; text-align: center; }
