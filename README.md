@@ -13,6 +13,8 @@ myswitchboard-web)。
   归 `com.shakeeat.my_shake_eat` 这个 app)。app 端只接管 `/open.html` 这一个路径
   (见 AndroidManifest 的 `pathPrefix="/open.html"`),所以隐私政策等其它页面照常
   在浏览器打开,不会被 app 劫持。
+- `assets/logo/` + `favicon.ico` —— 站点 logo / favicon,`logo.svg` 直接复制自 app 仓库
+  `assets/logo/app_icon.svg`;PNG/ICO 由它渲染。app 图标改了就重新复制、重新导出。
 - `app-ads.txt` / `ads.txt` —— AdMob 认证(publisher pub-4551036589300765)
 - `vercel.json` —— 确保 assetlinks.json 以 application/json 提供
 

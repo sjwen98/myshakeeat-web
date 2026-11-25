@@ -4,6 +4,10 @@
 <meta charset="UTF-8">
 <title>myShakeEat — Privacy Policy</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#ff6b35">
+<link rel="icon" href="favicon.ico" sizes="any">
+<link rel="icon" href="assets/logo/logo.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="assets/logo/apple-touch-icon.png">
 <link rel="stylesheet" href="assets/site.css">
 </head>
 <body>
@@ -11,7 +15,7 @@
 <header>
   <div class="wrap">
     <nav>
-      <a class="brand" href="index.html"><span class="logo">🍜</span> myShakeEat</a>
+      <a class="brand" href="index.html"><img class="logo" src="assets/logo/logo.svg" alt="" width="34" height="34"> myShakeEat</a>
       <div class="nav-links">
         <a href="index.html#features">Features</a>
         <a href="privacy.html">Privacy</a>
@@ -24,15 +28,16 @@
 
 <main class="wrap legal-page">
   <h1>Privacy Policy</h1>
-  <p class="updated">Last updated: July 2026</p>
+  <p class="updated">Last updated: November 2026</p>
 
   <p>myShakeEat (“the app”) is a tool that helps you decide where to eat: shake your phone and it picks a restaurant near you at random. The app has <strong>no accounts and no server of its own</strong>, and does not collect personal information such as your name or email. This policy explains what data the app uses and why.</p>
 
   <h2>Location</h2>
   <p>To find restaurants <strong>near you</strong>, the app requests your location when you shake. Your coordinates are sent to the following services to look up nearby restaurants:</p>
   <ul>
-    <li><a href="https://developers.google.com/maps/documentation/places" target="_blank" rel="noopener">Google Places API</a> — to find nearby restaurants and their details (name, rating, price level, opening hours, phone).</li>
+    <li><a href="https://www.geoapify.com/privacy-policy" target="_blank" rel="noopener">Geoapify Places API</a> — to find nearby restaurants and their details (name, cuisine, opening hours, phone) from OpenStreetMap data.</li>
     <li><a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap / Overpass API</a> — for supplementary public map data such as halal markers.</li>
+    <li><a href="https://routing.openstreetmap.de" target="_blank" rel="noopener">OSRM routing (routing.openstreetmap.de)</a> — your position and the chosen restaurant's position, to draw the route and estimate travel time on the result page.</li>
   </ul>
   <p>The app <strong>does not store your location on any server</strong> and does not use it for tracking. Location is only used when you actively shake to search. You can turn off location permission in your system settings at any time.</p>
 
@@ -45,8 +50,16 @@
     <li>History — restaurants you confirmed with “Let's go with it”, and the date.</li>
     <li>Preferences — search radius, theme, language.</li>
     <li>Recent picks — used to avoid recommending the same place twice in a row.</li>
+    <li>Food diary — your check-ins, notes and any photos you take or choose for them.</li>
+    <li>Filters and reminder settings — such as halal, vegetarian or no-beef preferences, and which meal reminders are on.</li>
   </ul>
-  <p>Uninstalling the app, or clearing history inside the app, deletes this data. See <a href="data-deletion.html">Data deletion</a>.</p>
+  <p>Uninstalling the app, or clearing history and deleting diary entries inside the app, deletes this data. See <a href="data-deletion.html">Data deletion</a>.</p>
+
+  <h2>Camera and photos</h2>
+  <p>If you add a photo to a food diary check-in, the app uses your camera or photo gallery only at that moment, and only for the photo you pick. The photo is saved in the app's local storage on your phone and is never uploaded.</p>
+
+  <h2>Notifications</h2>
+  <p>Breakfast, lunch, dinner and supper reminders are scheduled locally on your phone. No push server is involved. You can turn them off in the app or in your system settings.</p>
 
   <h2>Maps</h2>
   <p>The map thumbnail on the result page comes from OpenStreetMap; “Take me there” opens navigation in the maps app on your device (such as Google Maps).</p>

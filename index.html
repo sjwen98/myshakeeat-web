@@ -4,7 +4,14 @@
 <meta charset="UTF-8">
 <title>myShakeEat — Shake to decide what to eat</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="Can't decide where to eat? Shake your phone and myShakeEat picks a restaurant near you at random.">
+<meta name="description" content="Can't decide where to eat? Shake your phone and myShakeEat picks a restaurant near you at random. Filters for halal, vegetarian, no beef and more, plus a food diary and meal-time reminders.">
+<meta property="og:title" content="myShakeEat — Shake to decide what to eat">
+<meta property="og:description" content="Shake your phone and let luck pick a restaurant near you.">
+<meta property="og:image" content="https://myshakeeat.vercel.app/assets/logo/favicon-512.png">
+<meta name="theme-color" content="#ff6b35">
+<link rel="icon" href="favicon.ico" sizes="any">
+<link rel="icon" href="assets/logo/logo.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="assets/logo/apple-touch-icon.png">
 <link rel="stylesheet" href="assets/site.css">
 </head>
 <body>
@@ -13,7 +20,7 @@
   <div class="wrap">
     <nav>
       <a class="brand" href="index.html">
-        <span class="logo">🍜</span>
+        <img class="logo" src="assets/logo/logo.svg" alt="" width="34" height="34">
         myShakeEat
       </a>
       <div class="nav-links">
@@ -28,32 +35,59 @@
 
 <main>
   <section class="wrap hero">
-    <div class="bowl">🍜</div>
-    <h1>Shake your phone, let fate pick dinner</h1>
-    <p>Can't decide where to eat? Give your phone a shake and myShakeEat picks a restaurant near you at random — leave it to luck.</p>
+    <img class="hero-logo" src="assets/logo/logo.svg" alt="myShakeEat logo" width="120" height="120">
+    <h1>Shake your phone, let fate pick your next meal</h1>
+    <p>Can't decide where to eat? Give your phone a shake and myShakeEat picks a restaurant near you at random — from the mamak downstairs to the kopitiam a few streets away.</p>
+    <p class="cta">
+      <a class="btn" href="https://play.google.com/store/apps/details?id=com.shakeeat.my_shake_eat">Get it on Google Play</a>
+    </p>
   </section>
 
   <section class="wrap features" id="features">
     <div class="feature">
       <div class="icon">📳</div>
       <h3>Shake to pick</h3>
-      <p>Shake your phone or tap the button — the slot machine spins and reveals today's spot.</p>
+      <p>Shake your phone or tap the button — the slot machine spins and reveals today's spot. Not feeling it? Shake again.</p>
     </div>
     <div class="feature">
       <div class="icon">📍</div>
-      <h3>Right nearby</h3>
-      <p>Finds restaurants around you, adjustable search radius, and skips ones that are already closed.</p>
+      <h3>Near and a little farther</h3>
+      <p>Finds restaurants, cafes and kopitiams around you with an adjustable search radius. Picks are shuffled across the whole area, so places a bit farther away get their turn too.</p>
+    </div>
+    <div class="feature">
+      <div class="icon">🥗</div>
+      <h3>Filters that fit you</h3>
+      <p>Open now, halal, takeaway, vegetarian options, no spicy food, no beef — switch on what matters and the pick respects it.</p>
     </div>
     <div class="feature">
       <div class="icon">🗺️</div>
       <h3>Take me there</h3>
-      <p>See the map, rating, price and opening hours — happy with it? Open maps and navigate straight over.</p>
+      <p>See the map, the route from you to the door, and opening hours where available. Happy with it? Open your maps app and go.</p>
+    </div>
+    <div class="feature">
+      <div class="icon">📸</div>
+      <h3>Food diary</h3>
+      <p>Check in with a photo and a note after you eat. Look back by month: how many meals, how many places, and what you ate most.</p>
+    </div>
+    <div class="feature">
+      <div class="icon">⏰</div>
+      <h3>Meal-time reminders</h3>
+      <p>Gentle nudges at breakfast, lunch and dinner — and the occasional late-night supper reminder for when you're feeling peckish.</p>
     </div>
     <div class="feature">
       <div class="icon">🌏</div>
       <h3>Trilingual, local</h3>
-      <p>华语 / English / Bahasa Melayu, with light and dark themes to switch as you like.</p>
+      <p>华语 / English / Bahasa Melayu, with light and dark themes. Made for Malaysia.</p>
     </div>
+    <div class="feature">
+      <div class="icon">🔒</div>
+      <h3>No account needed</h3>
+      <p>No sign-up. Your history, diary photos and settings stay on your phone.</p>
+    </div>
+  </section>
+
+  <section class="wrap note">
+    <p>Restaurant data comes from <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap</a> contributors via Geoapify. Opening hours, halal and dietary markers come from that community data and may be incomplete — please verify important details, such as halal status, at the venue.</p>
   </section>
 </main>
 
